@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppGreen"
+    android:orientation="vertical"
+    tools:context=".UserDemographics">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/userDemographicsWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Weight(kg)"
+                    android:inputType="number"
+                    android:paddingLeft="10dp" />
+
+
+                <EditText
+                    android:id="@+id/userDemographicsHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Height(cm)"
+                    android:inputType="number"
+                    android:paddingLeft="10dp" />
+
+                <EditText
+                    android:id="@+id/userDemographicsBirthDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="dd/mm/yyyy"
+                    android:inputType="date"
+                    android:paddingLeft="10dp"/>
+
+                <EditText
+                    android:id="@+id/userDemographicsMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Mobile No"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"/>
+
+                <Spinner
+                    android:id="@+id/userDemographicsSpinnerMaritalStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Marital Status"
+                    android:inputType="text" />
+
+                <Spinner
+                    android:id="@+id/userDemographicsSpinnerDoYouWorkHealth"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Do you Work in Health Sector"
+                    android:inputType="textPersonName" />
+
+                <Spinner
+                    android:id="@+id/userDemographicsSpinnerCurrentCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Current City Your Apartment Located"
+                    android:inputType="textPersonName" />
+
+                <Spinner
+                    android:id="@+id/userDemographicsSpinnerHospital"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Select your hospital that you are working at"
+                    android:inputType="textPersonName" />
+
+                <Spinner
+                    android:id="@+id/userDemographicsSpinnerSpecialty"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Select your Specialty"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintWidth_percent="1">
+
+        <Button
+            android:id="@+id/userDemographicsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="userDemographicsButtonClicked"
+            android:text="Next"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

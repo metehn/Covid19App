@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/AppGreen">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/AppGreen"
+        tools:context=".SignUp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/signUpImageViewDoctor"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            app:srcCompat="@drawable/ic_upload_image"
+            app:strokeColor="@color/AppGreen"
+            app:strokeWidth="1dp" />
+
+        <EditText
+            android:id="@+id/signUpNameDoctor"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/signUpImageViewDoctor"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/signUpImageViewDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/signUpImageViewDoctor" />
+
+        <EditText
+            android:id="@+id/signUpPasswordDoctor"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/signUpEmailDoctor"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="@+id/signUpEmailDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/signUpEmailDoctor" />
+
+        <EditText
+            android:id="@+id/signUpEmailDoctor"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/signUpSurnameDoctor"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="@+id/signUpSurnameDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/signUpSurnameDoctor" />
+
+        <CheckBox
+            android:id="@+id/signUpCheckBoxDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="CheckBox"
+            app:layout_constraintEnd_toEndOf="@+id/signUpSpinnerDoctor"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="@+id/signUpSpinnerDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/signUpSpinnerDoctor" />
+
+        <Button
+            android:id="@+id/signUpButtonDoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/custom_button"
+            android:text="Next"
+            android:textColor="@color/AppGray"
+            app:layout_constraintEnd_toEndOf="@+id/signUpCheckBoxDoctor"
+            app:layout_constraintStart_toStartOf="@+id/signUpCheckBoxDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/signUpCheckBoxDoctor" />
+
+        <Spinner
+
+            android:id="@+id/signUpSpinnerDoctor"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="@+id/signUpPasswordDoctor"
+            app:layout_constraintStart_toStartOf="@+id/signUpPasswordDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/signUpPasswordDoctor" />
+
+        <EditText
+            android:id="@+id/signUpSurnameDoctor"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Surname"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/signUpNameDoctor"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/signUpNameDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/signUpNameDoctor" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

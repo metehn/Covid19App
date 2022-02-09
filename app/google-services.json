@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "139213459325",
+    "firebase_url": "https://coguard-231be-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "coguard-231be",
+    "storage_bucket": "coguard-231be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139213459325:android:b8789c01e2b527c12bc614",
+        "android_client_info": {
+          "package_name": "com.metehanersoy.covid19app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139213459325-v1587dkohpjqprg0umjut978e4145thc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBnvPiOZ9OGoQ2NxAFKGsgr-2HDKCgSFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139213459325-v1587dkohpjqprg0umjut978e4145thc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "139213459325-gfi7d9fuefekj9hntlmsemoa3osl7e4r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alharazi.CoGuard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

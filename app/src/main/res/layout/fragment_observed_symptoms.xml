@@ -1,0 +1,2515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Card.ObservedSymptomsFragment"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/ll_fragment_observedSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            app:srcCompat="@drawable/symptoms" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:text="General Symptoms"
+            android:textColor="@color/AppGreenDark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:text="Please select and rate your symptoms"
+            android:textColor="@color/AppGray"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="5dp"
+                android:paddingBottom="20dp"
+                android:gravity="center">
+                <!-- Main Layout-->
+
+                <!-- 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_LossOfSmellAndTaste_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="LossOfSmellAndTaste"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_LossOfSmellAndTaste_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_LossOfSmellAndTaste_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_LossOfSmellAndTaste_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_LossOfSmellAndTaste_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_AbdominalPain_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="AbdominalPain"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_AbdominalPain_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_AbdominalPain_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_AbdominalPain_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_AbdominalPain_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 3 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Anorexia_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Anorexia"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Anorexia_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Anorexia_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Anorexia_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Anorexia_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_BluishFaceAndLips_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BluishFaceAndLips"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_BluishFaceAndLips_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_BluishFaceAndLips_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_BluishFaceAndLips_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_BluishFaceAndLips_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 5 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_BodyAches_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BodyAches"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_BodyAches_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_BodyAches_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_BodyAches_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_BodyAches_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 6 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_ChestPain_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ChestPain"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_ChestPain_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ChestPain_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ChestPain_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ChestPain_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 7 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_ChillsAndShaking_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ChillsAndShaking"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_ChillsAndShaking_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ChillsAndShaking_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ChillsAndShaking_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ChillsAndShaking_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 8 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Confusion_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Confusion"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Confusion_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Confusion_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Confusion_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Confusion_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 9 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Delirium_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Delirium"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Delirium_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Delirium_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Delirium_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Delirium_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 10 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Diarrhea_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Diarrhea"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Diarrhea_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Diarrhea_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Diarrhea_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Diarrhea_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 11 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Dizziness_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dizziness"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Dizziness_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Dizziness_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Dizziness_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Dizziness_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 12 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Fatigue_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fatigue"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Fatigue_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Fatigue_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Fatigue_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Fatigue_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 13 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Fever_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fever"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Fever_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Fever_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Fever_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Fever_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 14 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_FeelingUnwell_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FeelingUnwell"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_FeelingUnwell_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_FeelingUnwell_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_FeelingUnwell_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_FeelingUnwell_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <!-- 15 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Headache_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Headache"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Headache_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Headache_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Headache_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Headache_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 16 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Hoarseness_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hoarseness"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Hoarseness_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Hoarseness_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Hoarseness_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Hoarseness_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 17 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_RunnyNose_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="RunnyNose"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_RunnyNose_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_RunnyNose_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_RunnyNose_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_RunnyNose_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 18 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_MusclePain_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="MusclePain"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_MusclePain_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_MusclePain_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_MusclePain_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_MusclePain_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 19 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_NasalStuffiness_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="NasalStuffiness"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_NasalStuffiness_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_NasalStuffiness_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_NasalStuffiness_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_NasalStuffiness_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 20 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Nausea_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nausea"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Nausea_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Nausea_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Nausea_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Nausea_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 21 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_OcularReaction_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="OcularReaction"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_OcularReaction_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_OcularReaction_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_OcularReaction_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_OcularReaction_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 22 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_PresistentCough_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="OcularReaction"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_PersistentCough_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_PersistentCough_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_PersistentCough_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_PersistentCough_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 23 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Rhinorrhea_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rhinorrhea"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Rhinorrhea_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Rhinorrhea_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Rhinorrhea_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Rhinorrhea_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 24 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_ShortnessOfBreath_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ShortnessOfBreath"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_ShortnessOfBreath_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ShortnessOfBreath_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ShortnessOfBreath_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_ShortnessOfBreath_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 25 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_SkinRash_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="SkinRash"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_SkinRash_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_SkinRash_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_SkinRash_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_SkinRash_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 26 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Inappetence_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Inappetence"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Inappetence_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Inappetence_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Inappetence_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Inappetence_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 27 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Sneeze_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sneeze"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Sneeze_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Sneeze_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Sneeze_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Sneeze_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 28 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_SoreThroat_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sore Throat"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_SoreThroat_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_SoreThroat_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_SoreThroat_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_SoreThroat_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 29 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Sputum_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sputum"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Sputum_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Sputum_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Sputum_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Sputum_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <!-- 30 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_rounded_darkgreen"
+                    android:orientation="vertical"
+                    android:layout_marginVertical="5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tw_Vomiting_symptom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Vomiting"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tw_Vomiting_severe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Severe"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Vomiting_moderate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moderate"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Vomiting_low"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Low"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+                        <TextView
+                            android:id="@+id/tw_Vomiting_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="N.O."
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:paddingHorizontal="20dp"
+                            android:paddingVertical="10dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btn_ObservedSymptomsFragment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_rounded_darkgreen"
+    android:text="Next"
+    android:textColor="@color/white"
+    android:layout_marginTop="5dp"/>
+                <!-- Main Layout-->
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

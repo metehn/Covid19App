@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_admin_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_doctor_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_forgot_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_forgot_verification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_log_in_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_patient_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Metehan/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_patient_or_doctor.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable-v24/ic_home_green_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/circle.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_edittext.xml" value="0.2703125" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_hospital_row_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_imageview.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_navigationbar_signup.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_rounded_darkgreen.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_rounded_gray_listview.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_rounded_lightgreen.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_sign_out_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_submitted_card_row.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/custom_symptoms_row.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/homepage_selector.xml" value="0.14375" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/homepageselector.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_attach.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_check.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_covidmap_white_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_doctor.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_doctor_list.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_error.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_exclamation.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_hamburgermenu_white_24dp.xml" value="0.8" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_history.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_hourglass_waiting.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_upload_image.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_virus.xml" value="0.2703125" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/ic_waiting_list_clock_svgrepo_com.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/profilepage_selector.xml" value="0.14375" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/rounded_fg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/selector_navigationbar_signup.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/drawable/signout_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_admin_home_page.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_card.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_card_requests.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_covid_map.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_doctor_home_page.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_doctor_list.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_forgot_password.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_home_page.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_hospital_list_page.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_log_in_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_medical_conditions.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_observed_symptoms.xml" value="0.23483365949119372" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_patient_home_page.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_sign_up2.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_submitted_cards.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_submitted_cards_patient.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_upload_files.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_user_demographics.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/activity_verify_email_warning.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/bottombarmenu.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/custom_doctor_ro.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/custom_doctor_row.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/custom_hospital_row.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/custom_submitted_card_row.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/custom_symptoms_row.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_alert_view.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_attachments.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_card_request_list.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_change_password.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_doctor_home.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_doctor_list.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_doctor_profile.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_edit_profile.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_medical_conditions.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_observed_symptoms.xml" value="0.24242424242424243" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_progress_bar.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_select_doctor.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_sign_up_doctor.xml" value="0.2359375" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_sign_up_patient.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_submitted_card.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_submitted_card_list.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_submitted_cards_list.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_suggestion.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_symptoms.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_temperature.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_temprature.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_travelnfo.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/fragment_upload_card_files.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/homepage_selector.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/homepageselector.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/patient_home_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/layout/patient_profile_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/menu/bottombarmenu.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/menu/bottombarmenu_signup.xml" value="0.25" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Covid19App/app/src/main/res/menu/toolbarmenu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
