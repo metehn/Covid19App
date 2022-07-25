@@ -1,3 +1,3 @@
 # Covid19App
 
-![](https://github.com/metehn/Covid19App/blob/master/CoGuard.mov)
+![](https://github.com/metehn/Covid19App/blob/master/CoGuard)
